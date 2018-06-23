@@ -1,0 +1,22 @@
+.table{
+	width: 100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 10px;
+}
+.img-responsive{
+	width: 300px;
+}
+#footer{
+	margin-top: 30px;
+}
+
+.ft-name{
+	border: 1px;
+	border-color: red;
+	color: green;
+	text-align: center;
+}

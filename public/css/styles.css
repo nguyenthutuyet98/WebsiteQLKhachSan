@@ -1,0 +1,120 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #000;
+}
+#top-header{
+	
+}
+#middle{
+	
+}
+#footer{
+	
+}
+.active{
+	background: #fff;
+}
+.navbar-default{
+	background: #456587;
+	border-radius: 0;
+}
+.navbar-default .navbar-brand{
+	color: #fff;
+}
+.navbar-default .navbar-nav>li>a{
+	color: #fff;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	color: #fff;
+	background: #456587;
+
+}
+.img-middle{
+	background: url('../images/hero.jpg')no-repeat bottom center;
+	width: 100%;
+    height: 900px;
+    margin-top: -30px;
+    position: relative;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+}
+.img-middle h2{
+	color: #fff;
+	font-family: "VNI-Vivi", Helvetica, sans-serif;
+	font-size: 100px;
+	font-weight: lighter;
+	position: relative;
+	margin: 0;
+	padding-top: 330px;
+	text-align: center;
+	display: block;
+}
+.img-middle h3{
+	color: #fff;
+	font-family: "Jokerman", Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: lighter;
+	position: relative;
+	margin: 0;
+	text-align: center;
+	display: block;
+}
+.look-for{
+	width: 100%;
+	height: 100px;
+	position: relative;
+}
+.look-for #search{
+	width: 75%;
+	/*display: block;*/
+	height: 60px;
+	background: #94edf7;
+	font-family: "VNI-Bodon",Helvetica, sans-serif;
+	font-size: 30px;
+	color: #000;
+}
+.submit{
+	position: absolute;
+	top: 3px;
+	right: 250px;
+	height: 55px;
+	font-family: "Forte",Helvetica, sans-serif;
+
+}
+.icon-search{
+	position: absolute;
+	top: 10px;
+	right: 200px;
+	font-size: 30px;
+}
+.all-search .function-search{
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    background: #cbe0f4;
+    border-top: 1px solid #aac8e4;
+    border-bottom: 1px solid #aac8e4;
+    z-index: 9999;
+    display: none;
+}
+
+#footer{
+	margin-top: 30px;
+}
+
+.ft-name{
+	border: 1px;
+	border-color: red;
+	color: green;
+	text-align: center;
+}
+.img-responsive{
+	width: 100%;
+	height: auto;
+	 
+}
